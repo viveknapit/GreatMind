@@ -1,10 +1,8 @@
-
-class errorResponse extends Error{
-    constructor(message, codeStatus){
+class ErrorResponse extends Error {
+    constructor(message, codeStatus) {
         super(message);
         this.codeStatus = codeStatus;
-
     }
 }
 
-module.exports = errorResponse;
+module.exports = ErrorResponse;
