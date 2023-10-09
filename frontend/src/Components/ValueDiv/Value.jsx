@@ -7,7 +7,7 @@ import adFree from '../../Assets/static/addfree.webp';
 const Value = () => {
   return (
     <div className='mb-[4rem] mt-[6rem] '>
-      <h1 className='text-textColor text-[25px] py-[2rem] pb-[3rem] font-bold w-[400px]-block '>The Value that hold us true and to account</h1>
+      <h1 className='text-textColor text-[25px] py-[2rem] pb-[3rem] font-bold w-[400px]-block '>We're here to support job seekers with our values</h1>
 
       <div className='grid gap-[10rem] grid-cols-3 items-center '>
 
@@ -21,7 +21,7 @@ const Value = () => {
                   </span>
             </div>
             <p className='text-[13px] text-textColor opacity-[.6] py-[1rem] font-semibold '>
-              Things are crafted very simple , beautiful. So no more complex and time wasting materials.
+            We're dedicated to crafting beautiful, simple experiences while eliminating time-wasting materials.
             </p>
          </div>
 
@@ -35,7 +35,7 @@ const Value = () => {
                   </span>
             </div>
             <p className='text-[13px] text-textColor opacity-[.6] py-[1rem] font-semibold '>
-              This plateform is developed by open source community, we'll wait for your contribution.
+            Our web app thrives on open-source collaboration, We'll wait for your contribution.
             </p>
          </div>
 

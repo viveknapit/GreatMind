@@ -11,7 +11,7 @@ export default {
         'grayIsh' : '#f1f4f8',
         'cardShadow' : '#f7f8f9',
         'textColor' : '#252b36',
-        
+        'liteBlue' : '#77C3EC',
       }
     },
   },
