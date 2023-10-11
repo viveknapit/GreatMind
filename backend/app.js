@@ -12,6 +12,8 @@ const errorHandler = require("./middleware/error");
 const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
 const jobTypeRoute = require("./routes/jobTypeRoutes");
+const jobRoute = require("./routes/jobRoutes");
+const showJobs = require("./routes/jobRoutes");
 
 
 //database connection
@@ -41,6 +43,8 @@ app.use(cors());
 app.use('/api', authRoutes);
 app.use('/api', userRoutes);
 app.use('/api', jobTypeRoute);
+app.use('/api', jobRoute);
+app.use('/api', showJobs);
 
 
 //error middleware
